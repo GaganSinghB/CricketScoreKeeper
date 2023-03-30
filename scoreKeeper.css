@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+
+/* ---------------------------------------------------------------------------- */
+
+*{
+    font-family: Impact;
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: none;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.score{
+    font-size: 28px;
+    font-weight: 400;
+    color: #ad0000;
+    text-transform: uppercase;
+    
+    letter-spacing: 0px;
+    word-spacing: 2px;
+    
+    text-align: center;
+}
+
+.score #Team_01{
+    color: #2255a4;
+}
+
+.score #Team_02{
+    color: #006629;
+}
+
+.score #Team_01_Score,
+.score #Team_02_Score,
+.score #Team_01_Wicket,
+.score #Team_02_Wicket{
+    color:rgb(0, 39, 39);
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.buttons table{
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.buttons table td{
+    text-align: center;
+    height: 110px;
+    width: 110px;
+}
+
+.buttons button{
+    font-size: 24px;
+    color: white;
+
+    background-color: #D2042D;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-color: black;
+    cursor: pointer;
+}
+
+.buttons button:hover{
+    font-size: 26px;
+
+    background-color:#fd0033;
+    height: 110px;
+    width: 110px;
+
+    transition: 0.1s;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.hud{
+    color: rgb(0, 39, 39);
+    font-size: 36px;
+    
+    text-align: center;
+}
+
+.hud #info{
+    padding-bottom: 20px;
+}
+
+.hud #info #balls{
+    color: red;
+}
+
+.hud #info #status{
+    font-family: 'Bebas Neue';
+}

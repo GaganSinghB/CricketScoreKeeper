@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team_01 vs Team_02</title>
+    <link rel="stylesheet" type="text/css" href="scoreKeeper.css">
+    <link rel="stylesheet" href="./Buttons/startButton.css">
+</head>
+
+<body background="./assets/Background_Editted.jpg">
+
+  <div class="main">
+    <div class="score">
+      <h1>
+        <span id="Team_01"></span>
+        <span id="Team_01_Score">0</span>/<span id="Team_01_Wicket">0</span>
+        vs 
+        <span id="Team_02"></span>
+        <span id="Team_02_Score">0</span>/<span id="Team_02_Wicket">0</span>
+      </h1>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <table>
+      <td><button id="one">ONE</button></td>
+      <td><button id="two">TWO</button></td>
+      <td><button id="three">THREE</button></td>
+      <td><button id="four">FOUR</button></td>
+      <td><button id="six">SIX</button></td>
+      <td><button id="wic">WICKET</button></td>
+      <td><button id="dot">DOT</button></td>
+    </table>
+  </div>
+
+  <div class="hud">
+    <div id="info">
+      <div>
+        <span id="balls"></span>
+        <span id="text"> WAITING FOR MATCH TO BEGIN</span>
+      </div>
+      <div>
+        <span id="status">MATCH NOT YET STARTED</span>
+      </div> 
+    </div>
+
+    <button class="start">
+      <span class="circle">
+        <span class="icon"></span>
+      </span>
+      <span class="buttonText">START MATCH</span>
+    </button> 
+
+  </div>
+
+  <script src="scoreKeeper.js"></script>
+
+</body>
+
+</html>

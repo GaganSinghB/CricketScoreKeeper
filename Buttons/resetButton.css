@@ -1,0 +1,90 @@
+/* ---------------------------------------------------------------------------- */
+
+.hud .start {
+    background: transparent;
+    border: 0;
+    width: 10rem;
+
+    position: relative;
+    
+    cursor: pointer;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.hud .start .circle {
+    display: block;
+    position: relative;
+
+    background: rgb(255, 0, 0);
+    width: 45px;
+    height: 45px;
+    border-radius: 1.5rem;
+    
+    transition: 0.2s;
+}
+
+.hud .start:hover .circle {
+    width: 100%;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.hud .start .circle .icon::before {
+    position: absolute;
+    content: "";
+
+    top: -0.36rem;
+    right: 0.0625rem;
+
+    width: 0.625rem;
+    height: 0.625rem;
+
+    border-top: 0.125rem solid white;
+    border-right: 0.125rem solid white;
+
+    transform: rotate(45deg);
+}
+
+.hud .start .circle .icon {
+    position: absolute;
+    
+    top: 0;
+    bottom: 0;
+    left: 0.625rem;
+
+    margin: auto;
+
+    width: 20px;
+    height: 2px;
+
+    background: none;
+    
+    transition: 0.2s;
+}
+
+.hud .start:hover .circle .icon {
+    background: white;
+    transform: translate(10px, 0);
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.hud .start .buttonText {
+    font-family: 'Square Peg';
+    font-size: 28px;
+    font-weight: 1000;
+    letter-spacing: 2px;
+    color: rgb(255, 0, 0);
+    
+    position: absolute;
+    inset: 0;
+    padding-top: 0.4rem;
+    margin-left: 2rem;
+
+    transition: 0.2s;
+}
+
+.hud .start:hover .buttonText {
+    color: white;
+}

@@ -1,0 +1,121 @@
+/* ---------------------------------------------------------------------------- */
+
+*{
+    font-family: Impact;
+    background-repeat: no-repeat;
+    background-size: cover;
+    user-select: none;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+h1{
+    font-family:Calibri;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.teamSelection{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.teamSelection #cell{
+    margin: auto;
+    height: 110px;
+    width: 800px;
+    transition: 0.1s;
+}
+
+.teamSelection #cell input:hover,
+.teamSelection #cell input:focus{
+    border-bottom: 5px solid #000000;
+    transition: 0.1s;
+}
+
+input{
+    font-size: 100px;
+    text-transform: uppercase;
+    text-align: center;
+
+    height: 110px;
+    width: 700px;
+    border: 0;
+    background: transparent;
+
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+.teamSelection #selectedTeam_01:hover::placeholder,
+.teamSelection #selectedTeam_01:focus::placeholder{
+    color: #2255a4;
+    opacity: 1;
+    transition: 0.1s;
+}
+
+.teamSelection #selectedTeam_02:hover::placeholder,
+.teamSelection #selectedTeam_02:focus::placeholder{
+    color: #006629;
+    opacity: 1;
+    transition: 0.1s;
+}
+
+input:hover{
+    font-size: 110px;
+    transition: 0.1s;
+}
+
+
+input:focus{
+    font-size: 110px;
+    outline: 0;
+    caret-color: transparent;
+}
+
+.teamSelection #selectedTeam_01{
+    color: #2255a4;
+}
+
+.teamSelection #selectedTeam_02{
+    color: #006629;
+}
+
+
+.teamSelection #vs{
+    height: 100px;
+}
+
+.teamSelection #vs span{
+    font-size: 80px;
+}
+
+
+/* ---------------------------------------------------------------------------- */
+
+.teamSelection .button{
+    padding-top: 60px;
+}
+
+.teamSelection #button{
+    color:green;
+    font-size: 22px;
+
+    border-radius: 25px;
+    padding: 5px 20px;
+    border-width: 2px;
+    border-color: #000000;
+    background-color: white;
+
+    cursor: pointer;
+    transition: 0.2s;
+}
+.teamSelection #button:hover {
+    color:white;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    
+	background-color:green;
+    transition: 0.2s;
+}

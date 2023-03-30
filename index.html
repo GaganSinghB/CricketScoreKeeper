@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cricket Score Keeper</title>
+    <link rel="stylesheet" href="teamSelection.css">
+</head>
+
+<body background="./assets/Background_Editted.jpg">
+    <h1>ENTER YOUR TEAMS:</h1>
+    <div class="teamSelection">
+        <form action="scoreKeeper.html">
+            <div class="selectionPanel">
+                <div id="cell">
+                    <input type="text" id="selectedTeam_01" placeholder="Home Team" required autocomplete="off">
+                </div>
+
+                <div id="vs">
+                    <span>vs</span>
+                </div>
+
+                <div id="cell">
+                    <input type="text" id="selectedTeam_02" placeholder="Away Team" required autocomplete="off">
+                </div>
+            </div>
+            
+            <div class="button">
+                <button id="button" onclick="getData()">
+                    <span class="circle">
+                    <span class="icon"></span>
+                    </span>
+                    <span class="buttonText">CONFIRM TEAMS</span>
+                </button> 
+            </div>
+        </form>
+    </div>
+
+    <script src="teamSelection.js"></script>
+
+</body>
+
+</html>
